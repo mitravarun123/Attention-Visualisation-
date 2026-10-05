@@ -1,0 +1,7 @@
+window: 3
+first_token: 0.5
+previous_token: 0.5
+next_token: 0.5
+self: 0.5
+local_window: 0.7
+broad_entropy: 0.8

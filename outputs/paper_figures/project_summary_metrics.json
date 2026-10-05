@@ -1,0 +1,50 @@
+{
+  "gpt2": {
+    "parameters": 124439808,
+    "token_min": 9,
+    "token_max": 23,
+    "prompt_count": 32,
+    "entropy_mean": 0.48201847076416016,
+    "entropy_sd": 0.023812346160411835,
+    "distance_mean": 0.35439208149909973,
+    "distance_sd": 0.011174049228429794,
+    "sink_mean": 0.626082718372345,
+    "sink_sd": 0.03020687773823738
+  },
+  "bert": {
+    "parameters": 109482240,
+    "token_min": 11,
+    "token_max": 25,
+    "prompt_count": 32,
+    "entropy_mean": 0.5334666967391968,
+    "entropy_sd": 0.018800849094986916,
+    "distance_mean": 0.3787715435028076,
+    "distance_sd": 0.010175002738833427,
+    "sink_mean": 0.12420184910297394,
+    "sink_sd": 0.01094029564410448
+  },
+  "rwkv": {
+    "parameters": 130729728,
+    "token_min": 9,
+    "token_max": 24,
+    "prompt_count": 32,
+    "entropy_mean": 0.7451087236404419,
+    "entropy_sd": 0.02093614637851715,
+    "distance_mean": 0.2583979070186615,
+    "distance_sd": 0.01491289772093296,
+    "sink_mean": 0.33439546823501587,
+    "sink_sd": 0.03621097654104233
+  },
+  "retnet": {
+    "parameters": 236185681,
+    "token_min": 9,
+    "token_max": 23,
+    "prompt_count": 32,
+    "entropy_mean": 0.8595659136772156,
+    "entropy_sd": 0.012994669377803802,
+    "distance_mean": 0.23011521995067596,
+    "distance_sd": 0.005609238054603338,
+    "sink_mean": 0.15999586880207062,
+    "sink_sd": 0.029119621962308884
+  }
+}

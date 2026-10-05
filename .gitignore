@@ -1,0 +1,13 @@
+checkpoints/
+outputs/tensors/
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+.cache/
+*.egg-info/
+
+frontend/node_modules/
+frontend/dist/

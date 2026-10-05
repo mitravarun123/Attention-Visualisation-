@@ -1,0 +1,14 @@
+gpt2:
+  checkpoint: gpt2
+bert:
+  checkpoint: bert-base-uncased
+rwkv:
+  checkpoint: RWKV/rwkv-4-169m-pile
+  n_groups: 12
+retnet:
+  weights: checkpoints/retnet_128.pt
+  vocab_size: 50257
+  tokenizer: gpt2
+  embed_dim: 768
+  num_heads: 12
+  num_layers: 12
